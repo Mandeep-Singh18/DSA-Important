@@ -1,0 +1,15 @@
+int largest(vector<int> &arr) {
+    // Step 1: Initialize the maximum value with the first element of the array
+    int max = arr[0];
+    
+    // Step 2: Loop through the array starting from the second element
+    for(int i = 1; i < arr.size(); i++) {
+        // Step 3: Update max if the current element is greater than max
+        if(arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    
+    // Step 4: Return the largest element found
+    return max;
+}
