@@ -1,4 +1,4 @@
-**Approach
+## Approach
 
 -Use three pointers:
   
@@ -12,7 +12,7 @@
   If nums[mid] == 1, just move mid.  
   If nums[mid] == 2, swap with high and move high only.
 
-**code
+## code
 
   void sortColors(vector<int>& nums) {
     int low = 0;              // Pointer for 0s
