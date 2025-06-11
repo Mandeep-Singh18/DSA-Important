@@ -28,7 +28,6 @@ If such an element exists, return it; otherwise, return `-1`.
 
 ---
 
-```
     int majorityElement(vector<int>& nums) {
     int count = 0; 
     int ele; // To store possible majority element
@@ -53,4 +52,3 @@ If such an element exists, return it; otherwise, return `-1`.
 
     return -1; // Otherwise, no majority
 }
-```
