@@ -8,7 +8,7 @@ If such an element exists, return it; otherwise, return `-1`.
 
 ## ✅ Approach: Boyer-Moore Majority Vote Algorithm
 
-### Simplified Steps:
+## Simplified Steps:
 1. **Find a candidate**:
    - Use a `count` variable to assume a majority element.
    - If `count == 0`, pick the current element as a new candidate.
@@ -27,7 +27,7 @@ If such an element exists, return it; otherwise, return `-1`.
 - **Space Complexity:** O(1)
 
 ---
-
+**
     int majorityElement(vector<int>& nums) {
     int count = 0; 
     int ele; // To store possible majority element
@@ -51,4 +51,5 @@ If such an element exists, return it; otherwise, return `-1`.
     if(cnt > nums.size() / 2) return ele; // If appears > n/2 → return it
 
     return -1; // Otherwise, no majority
-}
+   }
+**
