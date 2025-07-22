@@ -1,12 +1,12 @@
-    Use a stack to keep track of opening brackets.
+Use a stack to keep track of opening brackets.
       For each character:
         If it’s an opening bracket, push it to the stack.
         If it’s a closing bracket, check if the top of the stack has the matching opening bracket.
         If yes, pop the top.
-        If no or stack is empty, it's invalid.
+        If no or stack is empty, it is invalid.
       At the end, if the stack is empty → valid; otherwise → invalid.
 
-
+```
 bool isValid(string s) {
     stack<char> st;  // Stack to store opening brackets
     unordered_map<char, char> co = {
