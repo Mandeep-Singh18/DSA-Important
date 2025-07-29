@@ -9,10 +9,8 @@
 // 2. **Binary Search in the Left (Increasing) part** of the array.
 // 3. If not found, **Binary Search in the Right (Decreasing) part** of the array.
 // 4. If the element is not in either side, return -1.
-✅ Code with Simple Comments
-cpp
-Copy
-Edit
+
+
 int findInMountainArray(int target, MountainArray &mountainArr) {
     int length = mountainArr.length();
 
