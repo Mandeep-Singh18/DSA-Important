@@ -1,4 +1,3 @@
-/*
 Approach:
     Use recursion + backtracking to generate all subsets.
     At each index, we have two choices:
